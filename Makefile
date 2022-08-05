@@ -152,10 +152,10 @@ clean:
 zip:	dracopy-$(VER).zip
 
 dracopy-$(VER).zip:	$(TARGETS) $(REU)
-	zip -9 $@ $^ README.md
+	7z a $@ $^ README.md
 
 dc64.zip:	$(TARGETS_C64) $(REU)
-	zip -9 $@ $^ README.md
+	7z a $@ $^ README.md
 
 test.prg:	src/test.c
 	cl65 $(CFLAGS) -t pet $^ -o $@

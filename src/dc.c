@@ -131,7 +131,7 @@ updateMenu()
 
   revers(0);
   textcolor(DC_COLOR_TEXT);
-  drawFrame(" " DRA_VERNUM " ",MENUX,MENUY,MENUW,MENUH,NULL);
+  drawFrame(" ",MENUX,MENUY,MENUW,MENUH,NULL);// DRA_VERNUM
 
   cputsxy(MENUXT,++menuy,"F1 READ DIR");
   cputsxy(MENUXT,++menuy,"F2 DEVICE");
@@ -1836,7 +1836,7 @@ doMakeImage(const BYTE device)
 
       if (i == n-1)
         {
-          strcpy((char*)(sectorBuf+220), "image created by dracopy " DRA_VERNUM);
+          strcpy((char*)(sectorBuf+220), "image created by dracopy "); //  DRA_VERNUM
         }
 
       if (cbm_write(7, sectorBuf, 256) != 256)

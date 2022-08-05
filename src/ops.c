@@ -338,7 +338,7 @@ about(const char *progname)
   BYTE x = 0;
   BYTE y = 10;
   const char* *h = helpcontent;
-  sprintf(linebuffer, "%s " DRA_VER, progname);
+  sprintf(linebuffer, "%s" , progname ); // DRA_VER
   newscreen(linebuffer);
 
   textcolor(DC_COLOR_DIM);
@@ -380,7 +380,7 @@ about(const char *progname)
 void
 about(const char *progname)
 {
-  sprintf(linebuffer, "%s " DRA_VER, progname);
+  sprintf(linebuffer, "%s ", progname); //  DRA_VER
   newscreen(linebuffer);
   cputs("Copyright 2009 by Draco and others\n\r"
         "https://github.com/doj/dracopy\n\r");

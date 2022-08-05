@@ -43,7 +43,7 @@ updateMenu(void)
 
   revers(0);
   textcolor(DC_COLOR_TEXT);
-  drawFrame(" " DRA_VERNUM " ",MENUX,MENUY,MENUW,MENUH,NULL);
+  drawFrame(" ",MENUX,MENUY,MENUW,MENUH,NULL); // DRA_VERNUM
 
   ++menuy;
   cputsxy(MENUXT+1,++menuy,"F1 DIR");

@@ -1,0 +1,9 @@
+open 192.168.1.4 21
+guest
+anonymous
+dir
+cd Usb2
+binary
+put dc64.prg
+put dc6480.prg
+quit

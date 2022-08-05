@@ -45,3 +45,5 @@ mv dracopy-${VER}doj.zip $DESTDIR/
 mv dracopy-${VER}doj.d64 $DESTDIR/
 
 make clean
+
+ftp -s:ftp.u64

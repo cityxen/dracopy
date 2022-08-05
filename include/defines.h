@@ -49,7 +49,7 @@
 #define DC_COLOR_EE COLOR_YELLOW
 #define DC_COLOR_GRAY COLOR_GRAY2
 #define DC_COLOR_GRAYBRIGHT COLOR_GRAY3
-#define DC_COLOR_WAITKEY COLOR_VIOLET
+#define DC_COLOR_WAITKEY COLOR_YELLOW
 
 // a SX-64 style blue on white scheme
 #elif defined(COLOR_SCHEME_SX)
@@ -63,7 +63,7 @@
 #define DC_COLOR_EE COLOR_GRAY1
 #define DC_COLOR_GRAY COLOR_GRAY2
 #define DC_COLOR_GRAYBRIGHT COLOR_GRAY3
-#define DC_COLOR_WAITKEY COLOR_VIOLET
+#define DC_COLOR_WAITKEY COLOR_PURPLE
 
 // a C128 style light green on gray scheme
 #elif defined(COLOR_SCHEME_128)
@@ -77,7 +77,7 @@
 #define DC_COLOR_EE COLOR_GRAY2
 #define DC_COLOR_GRAY COLOR_GRAY2
 #define DC_COLOR_GRAYBRIGHT COLOR_GRAY3
-#define DC_COLOR_WAITKEY COLOR_VIOLET
+#define DC_COLOR_WAITKEY COLOR_PURPLE
 
 // the classic dracopy green on black color scheme
 #else
@@ -91,7 +91,7 @@
 #define DC_COLOR_EE COLOR_LIGHTBLUE
 #define DC_COLOR_GRAY COLOR_GRAY2
 #define DC_COLOR_GRAYBRIGHT COLOR_GRAY3
-#define DC_COLOR_WAITKEY COLOR_VIOLET
+#define DC_COLOR_WAITKEY COLOR_PURPLE
 #endif
 
 typedef unsigned char BYTE;
